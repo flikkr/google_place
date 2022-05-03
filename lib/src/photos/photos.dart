@@ -22,7 +22,7 @@ class Photos {
   /// [photoReference] Required parameters - A string identifier that uniquely identifies a photo.
   /// Photo references are returned from either a Place Search or Place Details request.
   ///
-  /// [minprice] or [maxprice] Required parameters - Specifies the maximum desired height or width,
+  /// [maxWidth] or [maxHeight] Required parameters - Specifies the maximum desired height or width,
   /// in pixels, of the image returned by the Place Photos service. If the image is smaller than
   /// the values specified, the original image will be returned. If the image is larger in either
   /// dimension, it will be scaled to match the smaller of the two dimensions, restricted to its
